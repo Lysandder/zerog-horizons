@@ -1,30 +1,30 @@
 public class Main {
   public static void main(String[] args) {
     String companyName = "ZeroG Horizons";
-    int foundingYear = 1991;
+    short foundingYear = 1991;
 
     // Address of headquarters
     String country = "Uzbekistan";
     String city = "Tashkent";
 
-    int activeSpacecrafts = 12;
+    byte activeSpacecrafts = 12;
 
-    int trainingHours = 200;
+    short trainingHours = 200;
     double trainingSuccessRate = 98.5d;
 
-    int designEngineers = 45;
-    int simulationSpecialists = 20;
-    int propulsionEngineers = 15;
-    int aerodynamicsEngineers = 18;
-    int prototypeTestsPerYear = 40;
+    byte designEngineers = 45;
+    byte simulationSpecialists = 20;
+    byte qualityInspectors = 20;
+    byte aerodynamicsEngineers = 18;
+    byte prototypeTestsPerYear = 40;
 
-    int customersServed = 350;
-    double ticketPrice = 2.5d; // thousands usd
-    int orbitalHotelRooms = 20;
-    int orbitalHotelCapacity = 50;
+    short customersServed = 350;
+    int ticketPrice = 750000d; // usd
+    byte orbitalHotelRooms = 20;
+    byte orbitalHotelCapacity = 40;
     double customerSatisfactionAvg = 96.5d;
-    int privateFlightsBooked = 40;
-    double revenue = 87.5d; // millions usd
-    int waitingClients = 1200;
+    byte privateFlightsBooked = 40;
+    double revenue = 262.5d; // millions usd
+    short waitingClients = 1200;
   }
 }
