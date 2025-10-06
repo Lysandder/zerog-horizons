@@ -1,11 +1,11 @@
 public class Main {
   public static void main(String[] args) {
-    String companyName = "ZeroG Horizons";
-    short foundingYear = 1991;
+    final String companyName = "ZeroG Horizons";
+    final short foundingYear = 1991;
 
     // Address of headquarters
-    String country = "Uzbekistan";
-    String city = "Tashkent";
+    final String country = "Uzbekistan";
+    final String city = "Tashkent";
 
     byte activeSpacecrafts = 12;
 
@@ -19,7 +19,7 @@ public class Main {
     byte prototypeTestsPerYear = 40;
 
     short customersServed = 350;
-    int ticketPrice = 750000d; // usd
+    int ticketPrice = 750000; // usd
     byte orbitalHotelRooms = 20;
     byte orbitalHotelCapacity = 40;
     double customerSatisfactionAvg = 96.5d;
